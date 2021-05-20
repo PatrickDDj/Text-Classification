@@ -73,11 +73,12 @@ if __name__ == '__main__':
         yy = test_y.to_list()
 
         from sklearn import metrics
-        print("-------------------------------------------------")
-        print("Accuracy for category '%s'  : %f" % (cat, metrics.accuracy_score(y, yy)))
-        print("Recall for category '%s'  : %f" % (cat, metrics.recall_score(y, yy)))
-        print("F1 for category '%s'  : %f" % (cat, metrics.f1_score(y, yy)))
-        print("-------------------------------------------------")
+        # print("'%s'  Accuracy: %f,  Recall: %f,  F1: %f\n" % (cat, metrics.accuracy_score(y, yy),
+        #                                                   metrics.recall_score(y,yy),
+        #                                                   metrics.f1_score(y, yy)))
+        print("%s\t\t%f\t%f\t%f\n" % (cat, metrics.accuracy_score(y, yy),
+                                                              metrics.recall_score(y, yy),
+                                                              metrics.f1_score(y, yy)))
 
 
 
