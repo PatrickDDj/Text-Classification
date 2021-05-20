@@ -4,7 +4,7 @@
 
 
 
-## Linear Regression(Precision Recall F1-Score)
+## Logistic Regression(Precision Recall F1-Score)
 书籍		0.885788	0.868048	0.900452
 
 平板		0.913750	0.926418	0.913120
@@ -31,7 +31,7 @@
 
 
 
-## Logistic Regression(Precision Recall F1-Score)
+## Linear Regression(Precision Recall F1-Score)
 书籍		0.872161	0.865772	0.887106
 
 平板		0.656750	0.635175	0.686887
